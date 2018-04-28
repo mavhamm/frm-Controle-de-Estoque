@@ -17,8 +17,8 @@ namespace WinForm_Controle_De_Estoque
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SplashScreen());
-            //Application.Run(new frmLogin());
+            //Application.Run(new SplashScreen());
+            Application.Run(new frmLogin());
         }
     }
 }
